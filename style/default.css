@@ -1,19 +1,26 @@
-#header{
-	background-color:#178efd;
-	height:370px;
-	width:2730px; 
+body{
+	font-family: 'Open Sans', sans-serif;
 }
-#directory{
-	display:block;
+.page-container{
+	width:1020px;
+	margin: 0 auto;	
+}
+.header{
+	background-color:#178efd; 
+	background:url(../images/texture.jpg) no-repeat;
+}
+.logo{
 	float:left;
-	position:relative;
-	width:310px;
-	height:150px;
-	margin-top:1005px;
-	top:500px;
-	left:0px;
-	padding-top:500px;
-	
+}
+.main-menu{
+	clear:both;
+	color:white;
+}
+.main-menu a{
+	color:white;
+}
+.menu-options{
+	float:right;
 }
 p{
 	color:white;
@@ -21,25 +28,19 @@ p{
 }
 .btn-main {
 	border:1px solid #3759c9;
-	float:right;
 	border-radius: 3px;
 	color:#ebebeb;
 	cursor:pointer;
+	display:inline-block;
 	font-family: 'Open Sans', sans-serif;
 	font-size:16px; 
 	text-align:center;
 	text-shadow: 0px 1px #3759c9;
 	padding-top: 3px;
 	padding-bottom: 3px;
-	width:170px;
-	top:1300px;
-	right:1000px;
+	min-width:170px;
 	margin: 14px;  
 	box-shadow:0px 0px 8px rgba(55, 89, 201, 0.25);
-	position:absolute;
-	top:20px;
-	right:715px;
-
 	background: #7390f0; /* Old browsers */
 	background: -moz-linear-gradient(top, #7390f0 0%, #3759c9 100%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#7390f0), color-stop(100%,#3759c9)); /* Chrome,Safari4+ */
@@ -71,34 +72,15 @@ p{
 	background: linear-gradient(to bottom, #3759c9 0%,#7390f0 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3759c9', endColorstr='#7390f0',GradientType=0 ); /* IE6-9 */
 }
-#social_media{
-	position:absolute;
-	right:729px;
-	top:0px;
+.social-media{
 	color:white;
 }
-#square { 
-    margin: 50px auto; 
+.carousel-container { 
+    margin: 5px auto; 
     position: relative; 
-    width: 2040px; 
-    height: 1240px; 
     padding: 10px; 
-    box-shadow: 0 0 20px rgba(0,0,0,0.4); 
 }
-
-#square > div { 
-    position: absolute; 
-    top: 10px; 
-    left: 10px; 
-    right: 10px; 
-    bottom: 10px; 
-}
-#Events{
-	position: absolute; 
-    top: 10px; 
-    left: 10px; 
-    right: 10px; 
-    bottom: 10px; 
+.events{ 
 }
 body{
 	background-color:black;

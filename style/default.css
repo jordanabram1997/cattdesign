@@ -17,7 +17,7 @@ body{
 	color:white;
 	
 }
-.main-menu a{
+.main-menu a:hover{
 	color:white;
 }
 .menu-options{

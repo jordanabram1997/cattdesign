@@ -82,7 +82,12 @@ p{
     padding: 10px; 
 }
 .events{ 
+	line-height:140px;
 }
 body{
 	background-color:black;
+}
+.freelancer{
+	color:white;
+	text-align:center;
 }

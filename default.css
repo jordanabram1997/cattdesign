@@ -15,7 +15,6 @@ body{
 .main-menu{
 	clear:both;
 	color:white;
-	
 }
 .main-menu a{
 	color:white;
@@ -82,14 +81,7 @@ p{
     padding: 10px; 
 }
 .events{ 
-	line-height:140px;
-	color:white;
-	text-align: center;
 }
 body{
-	background-color:#0978cd;
-}
-.freelancer{
-	color:white;
-	text-align:center;
+	background-color:black;
 }

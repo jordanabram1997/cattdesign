@@ -12,7 +12,7 @@ body{
 .logo{
 	float:left;
 }
-.main-menu{
+.main-menu:hover{
 	clear:both;
 	color:white;
 	
@@ -83,6 +83,8 @@ p{
 }
 .events{ 
 	line-height:140px;
+	color:white;
+	text-align: center;
 }
 body{
 	background-color:black;

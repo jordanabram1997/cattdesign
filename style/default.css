@@ -14,8 +14,9 @@ body{
 }
 .main-menu{
 	clear:both;
-	color:white;
-	
+}
+.main-menu a{
+	color:#fff;
 }
 .main-menu a:hover{
 	color:#0cf2ef;

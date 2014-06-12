@@ -81,6 +81,14 @@ p{
     position: relative; 
     padding: 10px; 
 }
+#owl-demo .item{
+  margin: 3px;
+}
+#owl-demo .item img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
 .events{ 
 	line-height:140px;
 	color:white;
@@ -92,4 +100,8 @@ body{
 .freelancer{
 	color:white;
 	text-align:center;
+}
+#twitter-feed{
+	position: relative;
+	left:60px;
 }

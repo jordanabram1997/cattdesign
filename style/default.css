@@ -96,7 +96,7 @@ p{
 	text-align: center;
 }
 body{
-	background-color:black;
+background: #fff url(/images/background.png);   
 }
 .freelancer{
 	color:white;

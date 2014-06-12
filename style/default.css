@@ -95,7 +95,7 @@ p{
 	text-align: center;
 }
 body{
-	background-color:#0978cd;
+	background-color:black;
 }
 .freelancer{
 	color:white;
@@ -104,4 +104,5 @@ body{
 #twitter-feed{
 	position: relative;
 	left:60px;
+	text-align: center;
 }

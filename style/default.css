@@ -144,8 +144,9 @@ p{
 	color:  #2e4bab;
 }
 .social-links{
+	color: white;
 	position: relative;
-	right: -757px;
+	float: right;
 	bottom: -100px;
 	width: 200px;
 	height: 20px;
@@ -158,4 +159,5 @@ p{
 	position: relative;
 	right: -230px;
 	bottom:-140px;
+	width: 75%;
 }

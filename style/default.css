@@ -96,7 +96,8 @@ p{
 	text-align: center;
 }
 body{
-background: #fff url(/images/background.png);  
+background: #fff url(/images/background.png); 
+width: 1200px; 
 }
 .freelancer{
 	color:#474646;
@@ -115,19 +116,19 @@ background: #fff url(/images/background.png);
 }
 .second-logo{
 	position: relative;
-	right: -220px;
-	bottom: -310px;
+	right: 0px;
+	bottom: -190px;
 }
 .description{
 	position: relative;
-	right: -230px;
-	bottom: -300px;
+	right: -10px;
+	bottom: -170px;
 	font-family: monospace;
 }
 .company{
 	position: relative;
-	right: -230px;
-	bottom: -300px;
+	right: -10px;
+	bottom: -170px;
 	font-family: monospace;
 }
 .footer{
@@ -139,18 +140,25 @@ background: #fff url(/images/background.png);
 }
 .footer-links{
 	position: relative;
-	top: 280px;
-	right: -320px;
+	top: 160px;
+	right: -120px;
 }
 .footer-links a:hover{
 	color:  #2e4bab;
 }
 .social-links{
 	position: relative;
-	right: -927px;
-	bottom: -220px;
+	right: -787px;
+	bottom: -100px;
+	width: 200px;
+	height: 20px;
 }
 .e-mail{
 	text-align: center;
 	font-family: monospace;
+}
+.banner{
+	position: relative;
+	right: -230px;
+	bottom:-140px;
 }

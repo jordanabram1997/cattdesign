@@ -77,6 +77,9 @@ p{
 }
 .social-media{
 	color:white;
+	position: absolute;
+	top: 10px;
+	left: 650px;
 }
 .carousel-container { 
     margin: 5px auto; 
@@ -154,4 +157,8 @@ p{
 }
 .banner{
 	text-align: center;
+}
+.search-box{
+	width: 320px;
+	float:right;
 }

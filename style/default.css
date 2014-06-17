@@ -117,47 +117,41 @@ p{
 	bottom: -170px;
 }
 .description{
-	position: relative;
-	right: -10px;
-	bottom: -170px;
+	float: left;
+	clear: both;
 	font-family: monospace;
+	margin: 180px auto;
 }
 .company{
-	position: relative;
-	right: -10px;
-	bottom: -170px;
+	float: left;
+	clear: both;
 	font-family: monospace;
+	margin: -180px auto;
 }
 .footer{
-	max-width: 100%;
 	background: url(/images/footer-background.jpg);
-	position: relative;
-	bottom: -10px;
-	height: 610px;
+	width: 1010px;
+	height: 580px;
 }
 .footer-links{
 	position: relative;
 	top: 160px;
 	right: -120px;
+	margin: -20px auto;
 }
 .footer-links a:hover{
 	color:  #2e4bab;
 }
 .social-links{
 	color: white;
-	position: relative;
 	float: right;
-	bottom: -100px;
-	width: 200px;
-	height: 20px;
+	margin: -220px auto;
+	
 }
 .e-mail{
 	text-align: center;
 	font-family: monospace;
 }
 .banner{
-	position: relative;
-	right: -230px;
-	bottom:-140px;
-	width: 75%;
+	text-align: center;
 }

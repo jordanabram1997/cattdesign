@@ -123,13 +123,13 @@ p{
 	float: left;
 	clear: both;
 	font-family: monospace;
-	margin: 180px auto;
+	margin: 180px auto 0;
 }
 .company{
 	float: left;
 	clear: both;
 	font-family: monospace;
-	margin: -180px auto;
+	margin: 0px auto;
 }
 .footer{
 	background: url(/images/footer-background.jpg);
@@ -148,7 +148,7 @@ p{
 .social-links{
 	color: white;
 	float: right;
-	margin: -220px auto;
+	margin: -40px auto;
 	
 }
 .e-mail{
@@ -161,4 +161,22 @@ p{
 .search-box{
 	width: 320px;
 	float:right;
+}
+.title{
+	text-align: center;
+	font-family: cursive;
+	font-size: 30px;
+}
+.email{
+	font-family: monospace;
+	font-size: 20px;
+}
+.twitter a:hover{
+	color:#0cf2ef;
+}
+.facebook a:hover{
+	color:#0cf2ef
+}
+.googleplus a:hover{
+	color: #0cf2ef
 }

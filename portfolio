@@ -5,24 +5,11 @@
 	<title>Catt Design</title>
 	<meta http-equiv="content-type" content="text/html;charset=UTF-8"/>
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+	<link rel="stylesheet" type="text/css" href="style/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="style/demo.css" />
+	<link rel="stylesheet" type="text/css" href="style/component.css" />
 	<script type="text/javascript" src="js/jquery.js"></script>
-	<script src="js/owl.carousel.js"></script>
-	<script src="js/jquery.min.js"></script>
-	<script src="js/jquery.colorbox-min.js"></script>
-	<script type="text/javascript">
-	$(document).ready(function() {
- 		$("#owl-demo").owlCarousel({
- 			autoPlay: 3000, //Set AutoPlay to 3 seconds
- 			items : 4,
-      		itemsDesktop : [1199,3],
-      		itemsDesktopSmall : [979,3]
-		});
- 	});
-	</script>
 	<link href="style/default.css" rel="stylesheet" type="text/css">
-	<link rel="stylesheet" href="style/owl.carousel.css">
-	<link rel="stylesheet" href="style/owl.theme.css">
 	<link rel="shortcut icon" href="/images/favicon.ico" />
 </head>
 <body>
@@ -49,18 +36,27 @@
 		</div>
 		<div class="page-content">
 			<div class="carousel-container">
-				<div id="owl-demo">
-					<div class="item"><img src="images/FaZelogo.png" alt="Faze logo"></div>
-					<div class="item"><img src="images/Leaflet-design.jpg" alt="Leaflet-design"></div>
-					<div class="item"><img src="images/Dare-Background.jpg" alt="Dare-Background"></div>
-					<div class="item"><img src="images/FaZeBG.jpg" alt="FaZeBG"></div>
-					<div class="item"><img src="images/dareweb.jpg" alt="dareweb"></div>
-					<div class="item"><img src="images/eZ-Catt-BG.jpg" alt="ezCatt"></div>
-					<div class="item"><img src="images/Adidas-Advert.jpg" alt="AdidasAd"></div>
-					<div class="item"><img src="images/FaZe-bg.png" alt="FaZe-bg"></div>
+				<div class="grid">
+					<figure class="effect-lily">
+						<img src="images/dareweb.jpg" alt="img01"/>
+						<figcaption>
+							<h2>Dare <span>Website</span></h2>
+							<p><font color="black">A design Layout for a page</font></p>
+							<a href="#">View more</a>
+						</figcaption>			
+					</figure>
+				</div>
+				<div class="grid">
+					<figure class="effect-bubba">
+						<img src="images/Adidas-resized.jpg" alt="img06"/>
+						<figcaption>
+							<h2>Adidas<span> Advert</span></h2>
+							<p>A Adidas Advert made by us.</p>
+							<a href="#">View more</a>
+						</figcaption>			
+					</figure>
 				</div>
 			</div>
-	
 		</div>
 		<div class="footer">
 			<div class="footer-background">

@@ -11,11 +11,12 @@
                 
     if ($_POST['submit'] && $human == '4') {                 
         if (mail ($to, $subject, $body, $from)) { 
-        echo '<p>Your message has been sent!</p>';
+        '<p>Your message has been sent!</p>';
     } else { 
-        echo '<p>Something went wrong, go back and try again!</p>'; 
+        '<p>Something went wrong, go back and try again!</p>'; 
     } 
     } else if ($_POST['submit'] && $human != '4') {
-    echo '<p>You answered the anti-spam question incorrectly!</p>';
+    '<p>You answered the anti-spam question incorrectly!</p>';
     }
+    header( 'Location: /contactredirect.html' ) ;
 ?>

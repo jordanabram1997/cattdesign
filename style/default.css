@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'BebasRegular';
+    src: url('fonts/BEBAS___-webfont.eot');
+    src: url('fonts/BEBAS___-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/BEBAS___-webfont.woff') format('woff'),
+         url('fonts/BEBAS___-webfont.ttf') format('truetype'),
+         url('fonts/BEBAS___-webfont.svg#BebasRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 body{
 	font-family: 'Open Sans', sans-serif;
 	background: #fff url(../images/background.png);  
@@ -29,57 +39,8 @@ p{
 	color:white;
 	font-family:"base4",Georgia,Serif;
 }
-.btn-main {
-	border:1px solid #3759c9;
-	border-radius: 3px;
-	color:#ebebeb;
-	cursor:pointer;
-	display:inline-block;
-	font-family: 'Open Sans', sans-serif;
-	font-size:16px; 
-	text-align:center;
-	text-shadow: 0px 1px #3759c9;
-	padding-top: 3px;
-	padding-bottom: 3px;
-	min-width:170px;
-	margin: 14px;  
-	box-shadow:0px 0px 8px rgba(55, 89, 201, 0.25);
-	background: #7390f0; /* Old browsers */
-	background: -moz-linear-gradient(top, #7390f0 0%, #3759c9 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#7390f0), color-stop(100%,#3759c9)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top, #7390f0 0%,#3759c9 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top, #7390f0 0%,#3759c9 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top, #7390f0 0%,#3759c9 100%); /* IE10+ */
-	background: linear-gradient(to bottom, #7390f0 0%,#3759c9 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7390f0', endColorstr='#3759c9',GradientType=0 ); /* IE6-9 */
-
-	-o-transition:.2s;
-	-ms-transition:.2s;
-	-moz-transition:.2s;
-	-webkit-transition:.2s;
-	/* ...and now for the proper property */
- 	 transition:.2s;
-}
-
-.btn-main:hover {
-	border: 1px solid #2e4bab;
-	box-shadow:0px 0px 15px rgba(55, 89, 201, 0.8);
-}
-.btn-main:active{
-	background: #3759c9; /* Old browsers */
-	background: -moz-linear-gradient(top, #3759c9 0%, #7390f0 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#3759c9), color-stop(100%,#7390f0)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top, #3759c9 0%,#7390f0 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top, #3759c9 0%,#7390f0 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top, #3759c9 0%,#7390f0 100%); /* IE10+ */
-	background: linear-gradient(to bottom, #3759c9 0%,#7390f0 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3759c9', endColorstr='#7390f0',GradientType=0 ); /* IE6-9 */
-}
 .social-media{
 	color:white;
-	position: absolute;
-	top: 10px;
-	left: 650px;
 }
 .carousel-container { 
     margin: 5px auto; 
@@ -161,6 +122,8 @@ p{
 .search-box{
 	width: 320px;
 	float:right;
+	margin: 30px -200px auto;
+	display: inline;
 }
 .title{
 	text-align: center;
@@ -179,4 +142,70 @@ p{
 }
 .googleplus a:hover{
 	color: #0cf2ef
+}
+h1 {
+	width:498px;
+	height:64px;
+	background:url(images/h1-bg.jpg);
+	color:#fff;
+	font-family:bebas;
+	padding:17px 0px 0px 78px;
+	letter-spacing:1px;
+	font-size:2.2em;
+	margin:0 auto;
+}
+
+form {
+	width:459px;
+	margin:0 auto;
+}
+
+label {
+	display:block;
+	margin-top:20px;
+	letter-spacing:2px;
+}
+
+input, textarea {
+	width:439px;
+	height:27px;
+	background:#efefef;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border:1px solid #dedede;
+	padding:10px;
+	margin-top:3px;
+	font-size:0.9em;
+	color:#3a3a3a;
+}
+
+	input:focus, textarea:focus {
+		border:1px solid #97d6eb;
+	}
+
+textarea {
+	height:213px;
+	font-family:Arial, Helvetica, sans-serif;
+	background:url(images/textarea-bg.jpg) right no-repeat #efefef;
+}
+
+#submit {
+	background:url(../images/submit.jpg);
+	width:127px;
+	height:38px;
+	text-indent:-9999px;
+	border:none;
+	margin-top:20px;
+	cursor:pointer;
+}
+
+	#submit:hover {
+		opacity:0.9;
+	}
+
+footer a img {
+	border:none;
+	float:right;
+	margin:0px 59px 40px 0px;
 }

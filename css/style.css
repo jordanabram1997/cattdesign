@@ -1,0 +1,111 @@
+body{
+	margin: 0;
+}
+.container-fluid{
+	padding: 0 0;
+	margin: 0;
+}
+header{
+	background-color: #de0a23; 
+}
+header>h1{
+	font-family: 'Roboto Condensed', sans-serif;
+	color: white;
+	font-size: 32px;
+	margin: 0;
+	text-align: center;
+}
+.menu-wrapper{
+	display: inline-block;
+}
+.navbar-header{
+	background-color: #282828;
+	text-align: center;
+}
+.navbar-brand{
+	text-align: center;
+	padding: 15px 0;
+}
+.navbar{
+	border: 0;
+}
+.navbar-nav{
+	text-align: center;
+	margin-left: 6px;
+}
+.navbar-default .navbar-brand:hover{
+	color: #0f97ed;
+}
+.navbar-default .navbar-toggle .icon-bar{
+	background-color: white;
+}
+.navbar-default .navbar-brand{
+	color: white;
+}
+button.navbar-toggle.collapsed{
+	color: white;
+}
+.navbar-toggle{
+	float: left;
+	margin-left: 15px;
+	margin-right: 0px;
+}
+.navbar-default .navbar-toggle{
+	border:none;
+}
+.navbar-default .navbar-toggle:hover{
+	background-color: transparent;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+	background: transparent;
+}
+.navbar-header>h3{
+	margin: 0 auto;
+	text-align: center;
+	width: 24px;
+	color: white;
+}
+div#bs-example-navbar-collapse-1{
+	background-color: #282828;
+	border: none;
+	overflow: hidden;
+}
+.navbar-nav>li>h3{
+	color: white;
+}
+h4.nav{
+	color: white;
+}
+h4.nav:hover{
+	color: #0f97ed;
+}
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header{
+	margin-right: 0;
+	padding-right: 7px;
+}
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	.navbar-brand{
+		display: none;
+	}
+	.navbar-collapse{
+		text-align: center;
+	}
+	.navbar-nav{
+		display: inline-block;
+		float: none;
+	}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
